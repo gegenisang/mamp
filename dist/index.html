@@ -91,7 +91,25 @@
         </div>
       </div>
     </div>
-    <div id="myCarousel"></div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active carousel-back-blue">
+          <div class="carousel-caption">
+            <div class="container">
+              <table border="0"></table>
+            </div>
+          </div>
+        </div>
+        <div class="item  carousel-back-green"></div>
+        <div class="item  carousel-back-lightPurple"></div>
+      </div>
+    </div>
     <div class="section0"></div>
   </div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

@@ -1,9 +1,19 @@
 @import "base";
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
 @media (min-width:768px) {
   .navbar-wrapper {
+    margin-top: 20px;
     .navbar {
-      margin-top: 20px;
       border-radius: 4px;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
