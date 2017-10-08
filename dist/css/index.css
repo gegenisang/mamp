@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  outline: 1px solid #ddd; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+* {
+  box-sizing: border-box;
+  outline: 1px solid #ddd; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+@media (min-width: 786px) {
+  .navbar-wrapper .navbar {
+    margin-top: 20px; } }
