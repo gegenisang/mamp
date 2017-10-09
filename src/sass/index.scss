@@ -1,2 +1,16 @@
 @import "base";
 @import "navbar";
+.section0 {
+  text-align: center;
+  h1 {
+    font-weight: 500;
+    font-size: 46px;
+    padding: 0 0 7px 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .icons {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}

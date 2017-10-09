@@ -1,8 +1,176 @@
 @import "base";
-@media (min-width:786px) {
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar {
+    background-color: #848484;
+    border-color: #848484;
+  }
+  .navbar-toggle {
+    float: left;
+    border-color: #585858;
+    margin-left: 0;
+  }
+  .navbar-buy {
+    float: right;
+    position: relative;
+    padding: 5px 8px 7px 8px;
+    margin-top: 9px;
+    margin-right: 0;
+    margin-bottom: 7px;
+    border-radius: 4px;
+  }
+  .btn-primary {
+    border-color: #fff;
+    background-color: #f16522;
+    background-image: none;
+  }
+  .lang-small {
+    float: right !important;
+    margin: 15px 15px 0 0;
+    i {
+      color: #fff;
+    }
+  }
+}
+
+#myCarousel {
+  height: 335px;
+  margin-bottom: 30px;
+  .btn-primary {
+    border-color: #fff;
+    background-color: #f16522;
+    background-image: none;
+  }
+  .carousel-indicators {
+    bottom: 0;
+  }
+  .item {
+    height: 335px;
+    background-color: #fff;
+  }
+  .carousel-back-blue {
+    background-image: url(../img/blue.png);
+    background-repeat: repeat;
+  }
+  .carousel-back-green {
+    background-image: url(../img/green.png);
+    background-repeat: repeat;
+  }
+  .carousel-back-lightPurple {
+    background-image: url(../img/lightPurple.png);
+    background-repeat: repeat;
+  }
+  .carousel-caption {
+    z-index: 10;
+    right: 0;
+    left: 0;
+    text-shadow: none;
+    bottom: auto;
+    top: 65px;
+  }
+  table {
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-caption td,
+  th {
+    padding-left: 3px;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .carousel-left-image,
+  .carousel-right-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .carouselContentStart {
+    padding-top: 30px;
+    h1 {
+      font-weight: 500;
+      font-size: 60px;
+      padding: 0;
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    h2 {
+      font-size: 30px;
+      padding: 0;
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      margin-bottom: 20px;
+    }
+    p {
+      // margin-top: 20px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media (max-width:1199px) {
+  .carousel {
+    height: 290px;
+  }
+  .carousel-caption {
+    top: 50px;
+  }
+  .carouselContentStart {
+    padding-top: 0;
+  }
+}
+
+@media (max-width:991px) {
+  .carousel {
+    height: 270px;
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 28px;
+    }
+    .item {
+      height: 290px;
+    }
+  }
+}
+
+@media(max-width:767px) {
+  .navbar-right {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
   .navbar-wrapper {
+    margin-top: 20px;
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
     .navbar {
-      margin-top: 20px;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 4px;
+    }
+    .navbar-buy,
+    .lang-small {
+      display: none !important;
+    }
+    .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 1.4;
     }
   }
 }
