@@ -10,7 +10,117 @@
     font-family: 'Ubuntu', sans-serif;
   }
   .icons {
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin-top: 0; // margin-bottom: 30px;
+    background-color: #e45355;
+    img {
+      margin-top: 10px;
+    }
+  }
+  #shortcuts-container {
+    min-height: 180px; // background-color: #f54354;
+  }
+  .shortcuts-normal {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    text-align: center;
+  }
+  .shortcuts {
+    .shortcut {
+      width: 110px;
+      display: inline-block;
+      padding: 10px 0 6px 0;
+      margin: 0 5px 1em;
+      vertical-align: top;
+      text-decoration: none;
+      background-color: #fefefe;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      border-radius: 5px;
+      &:hover {
+        background-color: #e8e8e8;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .shortcut-label {
+      margin: 6px 0 4px 0;
+      font-weight: 500;
+      color: #666;
+      font-size: 14px;
+      display: block;
+    }
+  }
+  #whatsnew {
+    h2 {
+      font-weight: 500;
+      font-size: 40px;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  }
+  hr {
+    margin: 30px 0 40px 0;
+  }
+  .featureText Wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  #product-start {
+    p {
+      padding: 0;
+      font-size: 16px;
+      font-family: 'Ubuntu', sans-serif;
+      img {
+        width: 126px;
+        height: 126px;
+      }
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 40px;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 21px;
+      padding: 0;
+      margin: 20px 0 10px;
+    }
+  }
+  .btn-group {
+    .btn {
+      width: 120px;
+    }
+    .btn-default,
+    .btn-default:hover {
+      border-color: #dedede;
+      background-color: #dedede;
+      box-shadow: none;
+    }
+    .btn-default:active,
+    .btn-default.active,
+    .btn-default.disabled,
+    .btn-default[disabled] {
+      border-color: #bcbcbc;
+      background-color: #bcbcbc;
+      background-image: none;
+      box-shadow: none!important;
+      font-weight: bold;
+    }
+  }
+  .centered {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    .screenshot {
+      margin: 20px 0;
+    }
   }
 }
